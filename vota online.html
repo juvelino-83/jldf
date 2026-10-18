@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Candidatos - FECT</title>
+    <link rel="icon"type="image/x-icon" href="imagen/FECT.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f7fa;
+            margin: 0;
+        }
+        .header {
+            background: #2176bd;
+            color: #fff;
+            padding: 14px 18px;
+            font-size: 18px;
+        }
+        .content {
+            max-width: 550px;
+            margin: 32px auto;
+        }
+        .panel-title {
+            background: #377bb6;
+            color: #fff;
+            padding: 14px;
+            font-size: 20px;
+            border-radius: 6px 6px 0 0;
+        }
+        .candidate-panel {
+            background: #fff;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 2px 12px #0001;
+            border: 1px solid #c9d9ea;
+            margin-bottom: 14px;
+        }
+        .candidate-block {
+            padding: 15opx;
+            border-bottom: 1px solid #e3e9f1;
+        }
+        .candidate-block:last-child {
+            border-bottom: none;
+        }
+        .candidate-title {
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .candidate-photo {
+            display: block;
+            margin: 0 auto 10px auto;
+            width: 210px;
+            height: 245px;
+            object-fit: cover;
+            border-radius: 4px;
+            box-shadow: 0 0 4px #bbb;
+            background: #eef2f5;
+        }
+        .candidate-name {
+            text-align: center;
+            font-size: 10px;
+            margin: 6px 0 0 0;
+        }
+        @media (max-width: 600px){
+            .content {
+                width: 99vw;
+                margin: 10px;
+                padding: 0;
+            }
+            .candidate-photo {
+                width: 98vw;
+                max-width: 210px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Faculdade de Engenharia, Ciencia e Tecnologia/FECT
+    </div>
+
+    <div class="content">
+        <div class="panel-title">Perfil Candidatos</div>
+        <div class="candidate-panel">
+            <div class="candidate-block">
+                <div class="candidate-title">Candidato Nu. 1</div>
+                <img src="imagen/UNTL.webp" class="memy.jpeg" alt="Foto do candidato 1">
+                <div class="candidate-name">Juvelino Jacinto Faria (2025)</div>
+            </div>
+            <div class="candidate-block">
+                <div class="candidate-title">Candidato Nu. 2</div>
+                <img src="imagen/UNTL.webp" class="fivania.jpeg" alt="Foto do candidato 2">
+                <div class="candidate-name">Evangelia Siqueira da Grachas (2025)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
