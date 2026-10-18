@@ -1,0 +1,12 @@
+document.getElementById('loginBtn').onclick = function(event) {
+    event.stopPropagation();
+    var popup = document.getElementById('loginPopup');
+    popup.style.display = (popup.style.display === "block") ? "none" : "block";
+};
+// Fecha popup se klik di luar tombol
+window.onclick = function(event) {
+    var popup = document.getElementById('loginPopup');
+    if (!event.target.matches('#loginBtn')) {
+        popup.style.display = "none";
+    }
+};

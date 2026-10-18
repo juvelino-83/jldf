@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, serif;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 20px;
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 250px;
+    height: 28px;
+    font-size: 18px;
+    padding: 3px 6px;
+}
+
+button {
+    font-size: 18px;
+    padding: 6px 16px;
+    margin-top: 10px;
+}
